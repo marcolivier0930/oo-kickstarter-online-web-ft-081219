@@ -4,7 +4,7 @@ class Project
   attr_reader :projects
   
   def initialize(title)
-    @name = title
+    @title = title
     @bakers = []
   end
   
